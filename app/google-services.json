@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "898717032580",
+    "firebase_url": "https://tiespdr.firebaseio.com",
+    "project_id": "tiespdr",
+    "storage_bucket": "tiespdr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898717032580:android:3fdf4ea1d380cf147162d1",
+        "android_client_info": {
+          "package_name": "info.passdaily.holy_angles_staff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898717032580-0hdi5giendsdqt4uqk4ft1in1j7vr912.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh7btyCKmxWKK7AiTw9jnwXMz6NtqeE1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898717032580-0hdi5giendsdqt4uqk4ft1in1j7vr912.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898717032580:android:41c728290acfa444",
+        "android_client_info": {
+          "package_name": "info.reign.tiespdr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898717032580-ute7b11ooehlo226tkqvafd3n7mgpfhi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.reign.tiespdr",
+            "certificate_hash": "30e765c7beaf427efae4252e65e8d52206a9a40d"
+          }
+        },
+        {
+          "client_id": "898717032580-0hdi5giendsdqt4uqk4ft1in1j7vr912.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh7btyCKmxWKK7AiTw9jnwXMz6NtqeE1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898717032580-0hdi5giendsdqt4uqk4ft1in1j7vr912.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
