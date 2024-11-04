@@ -13,8 +13,5 @@
     <external-path
         name="/storage/emulated/0"
         path="."/>
-    <files-path
-        name="files"
-        path="."/>
     <external-path name="fishbun_images" path="."/>
 </paths>

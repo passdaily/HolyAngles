@@ -105,8 +105,8 @@ import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.track.Trac
 import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.update_result.PublishResultFragment
 import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.update_result.UpdateResultFragment
 //import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoomGoLive.ZoomGoLiveActivity
-import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoom_current_meeting.CurrentMeetingFragment
-import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoom_current_meeting.ZoomPrivateMeetingActivity
+//import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoom_current_meeting.CurrentMeetingFragment
+//import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoom_current_meeting.ZoomPrivateMeetingActivity
 //import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoom_join_live_class.ZoomJoinLiveClassActivity
 import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoom_live_class_report.LiveClassReportFragment
 import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoom_scheduled.ZoomScheduledFragment
@@ -121,8 +121,8 @@ import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.gallery.Ga
 import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.leave.staff_leave.LeaveLetterFragment
 import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.manage_event.ManageStaffEventDialog
 import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.mark_absent.MarkMultiAbsentActivity
-import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoomGoLive.ZoomGoLiveActivity
-import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoom_join_live_class.ZoomJoinLiveClassActivity
+//import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoomGoLive.ZoomGoLiveActivity
+//import info.passdaily.holy_angles_staff.typeofuser.common_staff_admin.zoom_join_live_class.ZoomJoinLiveClassActivity
 
 
 //import info.passdaily.teach_daily_app.typeofuser.testing_area.tele_phone.AutoDetectSMSActivity
@@ -335,31 +335,31 @@ class MainActivityAdmin : AppCompatActivity(),ToolBarClickListener {
                 }
 
                 R.id.nav_zoom_take_live -> {
-                    val log = Intent(applicationContext, ZoomGoLiveActivity::class.java)
-                    startActivity(log)
+//                    val log = Intent(applicationContext, ZoomGoLiveActivity::class.java)
+//                    startActivity(log)
                     true
                 }
 
                 R.id.nav_zoom_join_live -> {
-                    val log = Intent(applicationContext, ZoomJoinLiveClassActivity::class.java)
-                    startActivity(log)
+//                    val log = Intent(applicationContext, ZoomJoinLiveClassActivity::class.java)
+//                    startActivity(log)
                     true
                 }
 
                 //nav_zoom_current_scheduled
 
                 R.id.nav_zoom_current_scheduled -> {
-                    var fragmentManager = supportFragmentManager
-                    var fragmentTransaction = fragmentManager.beginTransaction()
-                    fragmentTransaction.replace(R.id.nav_host_fragment, CurrentMeetingFragment())
-//            .addToBackStack("home").commit()
-                        .commit()
+//                    var fragmentManager = supportFragmentManager
+//                    var fragmentTransaction = fragmentManager.beginTransaction()
+//                    fragmentTransaction.replace(R.id.nav_host_fragment, CurrentMeetingFragment())
+////            .addToBackStack("home").commit()
+//                        .commit()
                     true
                 }
 
                 R.id.nav_zoom_private_meeting -> {
-                    val log = Intent(applicationContext, ZoomPrivateMeetingActivity::class.java)
-                    startActivity(log)
+//                    val log = Intent(applicationContext, ZoomPrivateMeetingActivity::class.java)
+//                    startActivity(log)
                     true
                 }
 

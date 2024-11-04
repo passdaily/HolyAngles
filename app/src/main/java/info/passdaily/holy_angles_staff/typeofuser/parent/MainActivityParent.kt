@@ -79,9 +79,9 @@ import info.passdaily.holy_angles_staff.typeofuser.parent.progress_report.Progre
 import info.passdaily.holy_angles_staff.typeofuser.parent.objective_video_exam.ObjectiveVideoExamList
 //import info.passdaily.parentapp.typeofuser.parent.record_video_exam.VideoCaptureActivity
 import info.passdaily.holy_angles_staff.typeofuser.parent.study_material.StudyMaterialInit
-import info.passdaily.holy_angles_staff.typeofuser.parent.zoom_layout.JoinLiveInit
-import info.passdaily.holy_angles_staff.typeofuser.parent.zoom_layout.LiveScheduledFragment
-import info.passdaily.holy_angles_staff.typeofuser.parent.zoom_layout.ZoomLiveActivity
+//import info.passdaily.holy_angles_staff.typeofuser.parent.zoom_layout.JoinLiveInit
+//import info.passdaily.holy_angles_staff.typeofuser.parent.zoom_layout.LiveScheduledFragment
+//import info.passdaily.holy_angles_staff.typeofuser.parent.zoom_layout.ZoomLiveActivity
 //import info.passdaily.holy_angles_staff.typeofuser.parent.zoom_layout.JoinLiveInit
 //import info.passdaily.holy_angles_staff.typeofuser.parent.zoom_layout.LiveScheduledFragment
 //import info.passdaily.holy_angles_staff.typeofuser.parent.zoom_layout.ZoomLiveActivity
@@ -340,20 +340,16 @@ class MainActivityParent : AppCompatActivity() {
                     true
                 }
                 R.id.nav_zoom -> {
-                    var fragmentManager = supportFragmentManager
-                    var fragmentTransaction = fragmentManager.beginTransaction()
-                    fragmentTransaction.replace(R.id.nav_host_fragment, LiveScheduledFragment())
-//            .addToBackStack("home").commit()
-                        .commit()
+//                    var fragmentManager = supportFragmentManager
+//                    var fragmentTransaction = fragmentManager.beginTransaction()
+//                    fragmentTransaction.replace(R.id.nav_host_fragment, LiveScheduledFragment())
+////            .addToBackStack("home").commit()
+//                        .commit()
                     true
                 }
                 R.id.nav_live_class -> {
-                    val intent = Intent(applicationContext, ZoomLiveActivity::class.java)
-//                    intent.putExtra("liveClass", 0)
-//                    intent.putExtra("mainClass", 1)
-//                    intent.putExtra("zOOMMEETINGID", "")
-//                    intent.putExtra("zOOMMEETINGPASSWORD", "")
-                    startActivity(intent)
+//                    val intent = Intent(applicationContext, ZoomLiveActivity::class.java)
+//                    startActivity(intent)
                     true
                 }
 
@@ -374,11 +370,11 @@ class MainActivityParent : AppCompatActivity() {
                     true
                 }
                 R.id.nav_join_live -> {
-                    var fragmentManager = supportFragmentManager
-                    var fragmentTransaction = fragmentManager.beginTransaction()
-                    fragmentTransaction.replace(R.id.nav_host_fragment, JoinLiveInit())
-//            .addToBackStack("home").commit()
-                        .commit()
+//                    var fragmentManager = supportFragmentManager
+//                    var fragmentTransaction = fragmentManager.beginTransaction()
+//                    fragmentTransaction.replace(R.id.nav_host_fragment, JoinLiveInit())
+////            .addToBackStack("home").commit()
+//                        .commit()
                     true
                 }
                 R.id.nav_assignment_list -> {

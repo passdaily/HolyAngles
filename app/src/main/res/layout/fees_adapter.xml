@@ -179,7 +179,6 @@
             android:fontFamily="@font/poppins_medium"
             android:maxLines="1"
             android:gravity="center_vertical"
-            android:text="Balance Amount: 8,000"
             android:textColor="@color/black"
             android:textSize="@dimen/text_size_02"
             app:layout_constraintBottom_toBottomOf="@+id/textPaidAmount"

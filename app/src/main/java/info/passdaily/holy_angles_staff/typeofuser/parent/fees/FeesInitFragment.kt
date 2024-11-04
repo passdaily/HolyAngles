@@ -114,6 +114,7 @@ class FeesInitFragment : Fragment() {
         feesDetailViewModel.getFeesDetails(CLASSID,ACADEMICID,STUDENTID,STUDENT_ROLL_NO)
             .observe(requireActivity(), Observer {
                 it?.let { resource ->
+                    Log.i(TAG,"$resource")
                     when (resource.status) {
                         Status.SUCCESS -> {
                             val response = resource.data?.body()!!
